@@ -1,5 +1,7 @@
 # EEM_Project - Economic Evaluation Model
-**Scalable Cross-Platform App for Nigerian Upstream Fiscal Modeling (PIA 2021)**
+**Elonify EEM - Scalable Cross-Platform App for Nigerian Upstream Fiscal Modeling (PIA 2021)**
+
+App name changed from previous "Ebony EEM" to "Elonify EEM".
 
 Built following the detailed architectural plan for Dr. Emmanuel Onwuka / Teno Upstream.
 
@@ -8,21 +10,26 @@ Transform the 36-sheet Excel economic model (Econ_Model_Draft_2.xlsm) into a mod
 
 **Key Features (Target)**
 - Multi-block / multi-field production and cost modeling
-- Flexible Fiscal Regime configuration (Nigeria PIA Concessionary + PSC foundation)
+- Flexible Fiscal Regime configuration (scalable: any country, Concessionary (Sole Risk/JV) or PSC)
 - Full calculation chain: Royalties → FLGT → Capital Allowances → HT → CIT → NCF (Project & Equity)
 - Interactive dashboards, sensitivity analysis, and professional reporting
 - Cross-platform desktop executable (via packaging)
 - Git-friendly + excellent support for AI-assisted development (local Ollama / Claude Code / Cursor)
 
 ## Current Status
-This is the initial scaffold created by Grok following the architectural plan.
+Scaffold + package structure fixes complete. Following ARCHITECTURE_AND_IMPLEMENTATION_PLAN.md **strictly** (user confirmed).
 
 **Implemented so far**:
-- Project directory structure
-- Core Pydantic data models (in progress)
-- Fiscal library foundation
+- Full directory structure with package __init__.py files (src/EEM_Project/)
+- Core Pydantic data models (core/models.py)
+- Fiscal library + scalable regime support (multi-country, Concessionary (Sole Risk/JV) + PSC, UI form to add, country subdirs)
+- Basic Streamlit entry (ui/app.py) - now importable
+- Package imports standardized to EEM_Project (kept src/EEM_Project/ per preference)
+- .venv-ready instructions
 
-See the full architectural plan in the conversation history for module mapping, dependency graph, UI pages, and phased roadmap.
+**Important**: The source `Econ_Model_Draft_2.xlsm` (36-sheet model) is still needed in the workspace root for import script + formula extraction + validation. It is .gitignored.
+
+See the full architectural plan (ARCHITECTURE_AND_IMPLEMENTATION_PLAN.md) for module mapping, dependency graph, UI pages, and phased roadmap. Strict validation (cell-level match to Excel) applies to every calculation module.
 
 ## Tech Stack
 - Python 3.11+
@@ -32,20 +39,40 @@ See the full architectural plan in the conversation history for module mapping, 
 - Plotly (charts)
 - PyInstaller or similar for executable packaging (planned)
 
+## Multi-Format Data Import & Integration
+The data input layer now supports importing production and cost data from:
+- Spreadsheets: .xls .xlsx .xlsm
+- Delimited: .csv .txt .tsv
+- Documents: .docx (tables; .doc via conversion)
+- Generic or EEM-specific wide formats (auto-detected)
+- Direct from other apps via Python import or REST API (FastAPI at /import/production and /import/costs)
+
+See the "Production Data" and "Costs Data" pages in the app for uploaders, and `src/EEM_Project/api.py` for integration.
+
 ## Getting Started (Development)
-```bash
-# Clone or copy this folder to your machine
-cd EEM_Project
+```powershell
+# On Windows (pwsh) - from the eem-project folder
+cd "C:\path\to\eem-project"
 
-# Create virtual environment
+# Create virtual environment (recommended)
 python -m venv .venv
-source .venv/bin/activate   # or .venv\Scripts\activate on Windows
+.\.venv\Scripts\Activate.ps1   # or .venv\Scripts\activate.bat
 
-# Install dependencies (once requirements.txt or pyproject.toml is ready)
+# Install dependencies
 pip install -r requirements.txt
 
-# Run the app
+# Run the app (from project root; PYTHONPATH makes src/EEM_Project importable as package)
+$env:PYTHONPATH="src"
 streamlit run src/EEM_Project/ui/app.py
+```
+
+Alternative (editable install):
+```powershell
+pip install -e .
+$env:PYTHONPATH="src"
+streamlit run src/EEM_Project/ui/app.py
+```
+(Requires pyproject.toml for full -e support; can be added in packaging phase.)
 ```
 
 ## Roadmap (High-Level)
@@ -69,4 +96,10 @@ Internal tool for Teno Upstream / personal use. All fiscal logic must be validat
 
 ---
 
-**Next Step**: Tell me what to implement first (e.g., "Create the Pydantic models and Fiscal Terms loader" or "Build the import script from your xlsm" or "Start with the Streamlit skeleton").
+**Next Step (per strict plan)**: Once you copy `Econ_Model_Draft_2.xlsm` to the workspace root, I will:
+1. Detect it and list all sheets.
+2. Implement `scripts/import_from_xlsm.py` (Phase 0 / M1).
+3. Create `docs/module_specs/` with exact formula extractions from your Excel (using openpyxl).
+4. Proceed module-by-module with validation (e.g. start with Ec_IO / Fiscal Terms_PIA / Royalties).
+
+Run the current scaffold with the commands above to confirm it works (you should see the welcome + loaded fiscal regime). Provide feedback on the UI look/feel direction for "professional" polish.

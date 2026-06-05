@@ -1,0 +1,35 @@
+id: generic_psc_template
+name: Generic PSC Regime Template
+regime_type: psc
+ownership_type: null
+country: Generic
+effective_from: null
+version: "1.0"
+description: |
+  Template for a Production Sharing Contract (PSC) regime.
+  Fill in cost_recovery_limit, profit_split_rules, and any royalties/taxes.
+  Copy this file into a country subfolder (e.g. data/fiscal_regimes/angola/) and customize.
+
+royalty_oil_rates:
+  onshore: 0.05
+  # Add terrain-specific as needed
+
+tax_rates:
+  cit: 0.30
+
+cost_recovery_limit: 0.60   # 60% of revenue available for cost recovery
+
+profit_split_rules:
+  type: "r_factor"
+  tranches:
+    - r_factor: 1.0
+      contractor_share: 0.80
+    - r_factor: 1.5
+      contractor_share: 0.60
+    - r_factor: 2.0
+      contractor_share: 0.40
+
+capital_allowance_rules: {}
+levies: {}
+price_royalty_rules:
+  enabled: false

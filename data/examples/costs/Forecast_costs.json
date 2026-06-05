@@ -1,0 +1,1829 @@
+{
+  "block_name": "Forecast",
+  "items": [
+    {
+      "block_name": "Forecast",
+      "year": 2023,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2023,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2023,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2023,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2024,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2024,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2024,
+      "category": "facilities_capex",
+      "amount_usd_mln": 17.216100855177544,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2024,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2025,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2025,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2025,
+      "category": "facilities_capex",
+      "amount_usd_mln": 105.85450981595093,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2025,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2026,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2026,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2026,
+      "category": "facilities_capex",
+      "amount_usd_mln": 266.1734900092954,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2026,
+      "category": "opex",
+      "amount_usd_mln": 29.91586868888345,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2027,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2027,
+      "category": "wells_capex",
+      "amount_usd_mln": 383.7338611950645,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2027,
+      "category": "facilities_capex",
+      "amount_usd_mln": 547.8062483733037,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2027,
+      "category": "opex",
+      "amount_usd_mln": 32.7865314136963,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2028,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2028,
+      "category": "wells_capex",
+      "amount_usd_mln": 446.03301960349376,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2028,
+      "category": "facilities_capex",
+      "amount_usd_mln": 815.112388882692,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2028,
+      "category": "opex",
+      "amount_usd_mln": 38.625278861057076,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2029,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2029,
+      "category": "wells_capex",
+      "amount_usd_mln": 65.35699431581867,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2029,
+      "category": "facilities_capex",
+      "amount_usd_mln": 108.07073805540064,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2029,
+      "category": "opex",
+      "amount_usd_mln": 48.72751557188727,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2030,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2030,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2030,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2030,
+      "category": "opex",
+      "amount_usd_mln": 47.08928778658912,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2031,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2031,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2031,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2031,
+      "category": "opex",
+      "amount_usd_mln": 43.624033830858515,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2032,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2032,
+      "category": "wells_capex",
+      "amount_usd_mln": 152.49965340357687,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2032,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2032,
+      "category": "opex",
+      "amount_usd_mln": 54.902281397665334,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2033,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2033,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2033,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2033,
+      "category": "opex",
+      "amount_usd_mln": 50.26931694041379,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2034,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2034,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2034,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2034,
+      "category": "opex",
+      "amount_usd_mln": 45.00940988040898,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2035,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2035,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2035,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2035,
+      "category": "opex",
+      "amount_usd_mln": 40.7325979737673,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2036,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2036,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2036,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2036,
+      "category": "opex",
+      "amount_usd_mln": 37.05555824576061,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2037,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2037,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2037,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2037,
+      "category": "opex",
+      "amount_usd_mln": 33.889739514151145,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2038,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2038,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2038,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2038,
+      "category": "opex",
+      "amount_usd_mln": 33.543818099335596,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2039,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2039,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2039,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2039,
+      "category": "opex",
+      "amount_usd_mln": 33.56969453973573,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2040,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2040,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2040,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2040,
+      "category": "opex",
+      "amount_usd_mln": 26.760810745914885,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2041,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2041,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2041,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2041,
+      "category": "opex",
+      "amount_usd_mln": 24.712184280185586,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2042,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2042,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2042,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2042,
+      "category": "opex",
+      "amount_usd_mln": 20.823061788064358,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2043,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2043,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2043,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2043,
+      "category": "opex",
+      "amount_usd_mln": 19.346017958753507,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2044,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2044,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2044,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2044,
+      "category": "opex",
+      "amount_usd_mln": 18.050245833919004,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2045,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2045,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2045,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2045,
+      "category": "opex",
+      "amount_usd_mln": 15.44017471070564,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2046,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2046,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2046,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2046,
+      "category": "opex",
+      "amount_usd_mln": 14.655906638331407,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2047,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2047,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2047,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2047,
+      "category": "opex",
+      "amount_usd_mln": 13.954976193494275,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2048,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2048,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2048,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2048,
+      "category": "opex",
+      "amount_usd_mln": 13.326671230473668,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2049,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2049,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2049,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2049,
+      "category": "opex",
+      "amount_usd_mln": 12.761792598331938,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2050,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2050,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2050,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2050,
+      "category": "opex",
+      "amount_usd_mln": 0.28033515129301545,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2051,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2051,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2051,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2051,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2052,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2052,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2052,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2052,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2053,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2053,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2053,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2053,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2054,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2054,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2054,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2054,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2055,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2055,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2055,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2055,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2056,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2056,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2056,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2056,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2057,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2057,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2057,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2057,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2058,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2058,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2058,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2058,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2059,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2059,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2059,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2059,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2060,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2060,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2060,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2060,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2061,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2061,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2061,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2061,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2062,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2062,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2062,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2062,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2063,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2063,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2063,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2063,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2064,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2064,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2064,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2064,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2065,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2065,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2065,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2065,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2066,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2066,
+      "category": "wells_capex",
+      "amount_usd_mln": 1047.6235285179537,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2066,
+      "category": "facilities_capex",
+      "amount_usd_mln": 1860.2334759918201,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2066,
+      "category": "opex",
+      "amount_usd_mln": 749.8531098736775,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2067,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2067,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2067,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2067,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2068,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2068,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2068,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2068,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2069,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2069,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2069,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2069,
+      "category": "opex",
+      "amount_usd_mln": 22.495593296210323,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2070,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2070,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2070,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2070,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2071,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2071,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2071,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2071,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2072,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2072,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2072,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2072,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2073,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2073,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2073,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2073,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2074,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2074,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2074,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2074,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2075,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2075,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2075,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2075,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2076,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2076,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2076,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2076,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2077,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2077,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2077,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2077,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2078,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2078,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2078,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2078,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2079,
+      "category": "exploration",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2079,
+      "category": "wells_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2079,
+      "category": "facilities_capex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    },
+    {
+      "block_name": "Forecast",
+      "year": 2079,
+      "category": "opex",
+      "amount_usd_mln": 0.0,
+      "is_oil": false,
+      "is_gas": true
+    }
+  ]
+}

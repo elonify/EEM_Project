@@ -1,5 +1,5 @@
 """
-Core Pydantic data models for Ebony EEM.
+Core Pydantic data models for Elonify EEM.
 
 These models define the canonical data structures used across the application.
 They ensure type safety, validation, and clear contracts between modules.
@@ -29,34 +29,65 @@ class GasUtilization(str, Enum):
 
 
 class RegimeType(str, Enum):
+    """Main fiscal regime categories.
+    Concessionary regimes (royalty + tax based) can further be Sole Risk or JV.
+    PSC = Production Sharing Contract (cost recovery + profit oil split).
+    """
     CONCESSIONARY = "concessionary"
     PSC = "psc"
-    JV = "jv"
+
+
+class OwnershipType(str, Enum):
+    """Sub-type for Concessionary regimes."""
     SOLE_RISK = "sole_risk"
+    JV = "jv"  # Joint Venture
 
 
 class FiscalRegime(BaseModel):
-    """Represents a complete fiscal regime configuration (e.g., Nigeria PIA 2021)."""
-    id: str = Field(..., description="Unique identifier, e.g. 'nigeria_pia_2021_concessionary'")
+    """Represents a complete fiscal regime configuration.
+
+    Designed to be scalable across countries and regime types:
+    - regime_type: "concessionary" (royalty/tax) or "psc" (production sharing)
+    - For concessionary: ownership_type can be "sole_risk" or "jv"
+    - PSC regimes typically use cost_recovery_limit + profit_split_rules
+    - All rate/rule fields are dicts to allow flexible per-country/terrain structures.
+
+    Future expansion: add fields like ring_fence_rules, depreciation_methods,
+    or country-specific parameters in additional_parameters.
+    """
+    id: str = Field(..., description="Unique identifier, e.g. 'nigeria_pia_2021_concessionary' or 'angola_psc_2020'")
     name: str
     regime_type: RegimeType
+    ownership_type: OwnershipType | None = None  # Only relevant for CONCESSIONARY (sole_risk or jv)
     country: str = "Nigeria"
     effective_from: str | None = None
     version: str = "1.0"
     description: str | None = None
 
-    # Core rates and rules (populated from YAML)
+    # Core rates and rules (populated from YAML) - kept flexible as dicts for scalability
     royalty_oil_rates: dict[str, Any] = Field(default_factory=dict)  # terrain -> rates or formula
     royalty_gas_rates: dict[str, Any] = Field(default_factory=dict)
     price_royalty_rules: dict[str, Any] = Field(default_factory=dict)
-    tax_rates: dict[str, float] = Field(default_factory=dict)  # HT, CIT, Edu/Dev Levy
-    levies: dict[str, float] = Field(default_factory=dict)     # NDDC, HCDT
+    tax_rates: dict[str, float] = Field(default_factory=dict)  # e.g. HT, CIT, Edu/Dev Levy
+    levies: dict[str, float] = Field(default_factory=dict)     # e.g. NDDC, HCDT, other govt takes
     capital_allowance_rules: dict[str, Any] = Field(default_factory=dict)
-    cost_recovery_limit: float | None = None
-    profit_split_rules: dict[str, Any] = Field(default_factory=dict)
+    cost_recovery_limit: float | None = None  # % for PSC
+    profit_split_rules: dict[str, Any] = Field(default_factory=dict)  # for PSC (R-factor, tranches, etc.)
+
+    # Extensibility hook for future countries/regimes
+    additional_parameters: dict[str, Any] = Field(default_factory=dict)
 
     created_at: datetime = Field(default_factory=datetime.utcnow)
     updated_at: datetime = Field(default_factory=datetime.utcnow)
+
+    @model_validator(mode='after')
+    def validate_ownership(self) -> FiscalRegime:
+        if self.regime_type == RegimeType.CONCESSIONARY and self.ownership_type is None:
+            # Default to sole_risk if not specified, but warn in practice
+            self.ownership_type = OwnershipType.SOLE_RISK
+        if self.regime_type == RegimeType.PSC and self.ownership_type is not None:
+            self.ownership_type = None  # PSC doesn't use ownership_type
+        return self
 
 
 class YearlyRecord(BaseModel):
@@ -178,9 +209,26 @@ class RunResult(BaseModel):
 def example_fiscal_regime() -> FiscalRegime:
     return FiscalRegime(
         id="nigeria_pia_2021_concessionary_v1",
-        name="Nigeria PIA 2021 - Concessionary (Shallow Water)",
+        name="Nigeria PIA 2021 - Concessionary (Shallow Water, Sole Risk)",
         regime_type=RegimeType.CONCESSIONARY,
+        ownership_type=OwnershipType.SOLE_RISK,
+        country="Nigeria",
         royalty_oil_rates={"shallow_water": {"base": 0.075, "sliding": True}},
         tax_rates={"ht": 0.15, "cit": 0.30, "edu_dev_levy": 0.03},
         levies={"nddc": 0.03, "hcdt": 0.03},
+        description="Example for a Concessionary Sole Risk regime. JV would set ownership_type='jv'.",
+    )
+
+
+def example_psc_regime() -> FiscalRegime:
+    """Example for a PSC regime (for future expansion)."""
+    return FiscalRegime(
+        id="generic_psc_example",
+        name="Example PSC Regime",
+        regime_type=RegimeType.PSC,
+        country="Generic",
+        cost_recovery_limit=0.50,  # 50% cost recovery
+        profit_split_rules={"r_factor": [1.0, 1.5], "contractor_share": [0.8, 0.5]},
+        royalty_oil_rates={"onshore": 0.05},  # Some PSCs still have royalty
+        tax_rates={"cit": 0.30},
     )

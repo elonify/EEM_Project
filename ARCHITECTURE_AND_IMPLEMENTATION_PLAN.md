@@ -38,14 +38,16 @@ This document is the single source of truth for any AI coding agent working on t
 - **Packaging (later)**: PyInstaller (primary) or NiceGUI/Tauri
 - **Version Control**: Git + clear conventional commits
 
-**Repository Root**: `ebony_eem/`
+**Repository Root**: `eem-project/` (workspace)
+
+**Package**: `src/EEM_Project/` (kept per user preference; imports use `EEM_Project.xxx`. Architecture examples below use the canonical names; adjust paths when reading.)
 
 ---
 
 ## 3. Repository Structure (Follow Exactly)
 
 ```
-ebony_eem/
+eem-project/
 ├── README.md
 ├── ARCHITECTURE_AND_IMPLEMENTATION_PLAN.md   ← This file (read me first)
 ├── requirements.txt
@@ -54,7 +56,7 @@ ebony_eem/
 │   ├── fiscal_regimes/          # Versioned YAML files
 │   │   └── nigeria_pia_2021_concessionary.yaml
 │   └── examples/                # Sample imported data
-├── src/ebony_eem/
+├── src/EEM_Project/             # Actual package (user chose to keep this name)
 │   ├── __init__.py
 │   ├── core/
 │   │   ├── models.py            # All Pydantic models
@@ -109,7 +111,7 @@ ebony_eem/
 
 **Critical Requirement (User Directive)**:  
 The Input Data Layer must support **two modes**:
-1. **Imported** from Excel/CSV/JSON (via `scripts/import_from_xlsm.py`).
+1. **Imported** from Excel/CSV/JSON (via `scripts/import_data.py`).
 2. **Typed directly** inside the Streamlit app (using `st.data_editor` for new blocks or editing existing production/cost/equity data).
 
 All data — whether imported or manually entered — must validate against the same Pydantic models (`ProductionProfile`, `CostProfile`, etc.) and be persistable per Project/Scenario.
@@ -140,7 +142,7 @@ All data — whether imported or manually entered — must validate against the 
 
 ## 5. Core Data Models (Start Here)
 
-All modules must use these Pydantic models (defined in `src/ebony_eem/core/models.py`):
+All modules must use these Pydantic models (defined in `src/EEM_Project/core/models.py`):
 
 - `FiscalRegime`
 - `ProductionProfile`
@@ -210,7 +212,7 @@ Cell in Royalties sheet (example):
 - [ ] Create full folder structure
 - [ ] Implement `core/models.py` (all key Pydantic models)
 - [ ] Implement `fiscal/library.py` + sample YAML
-- [ ] Create `scripts/import_from_xlsm.py` (normalize Block_Oil Data, Block_Gas Data, Block_TC, etc. into clean models)
+- [ ] Create `scripts/import_data.py` (normalize Block_Oil Data, Block_Gas Data, Block_TC, etc. into clean models)
 - [ ] Basic Streamlit skeleton (`ui/app.py`)
 
 ### Phase 1: Data Layer
@@ -276,16 +278,20 @@ Cell in Royalties sheet (example):
 
 ---
 
-## 10. Current Status (as of creation)
+## 10. Current Status (updated 2026)
 
-- Folder structure created
-- `core/models.py` started
-- `fiscal/library.py` started with sample YAML
-- Basic Streamlit `ui/app.py` exists
-- This architecture document created
+- Folder structure created + all `__init__.py` added (src/EEM_Project/ is now a proper importable package)
+- `core/models.py` implemented with all key Pydantic models (FiscalRegime, ProductionProfile, CostProfile, ScenarioConfig, NCFResult, MetricsResult, RunResult, enums)
+- `fiscal/library.py` + sample YAML (loads regimes from data/fiscal_regimes/; load logic hardened)
+- Basic Streamlit `ui/app.py` exists and runs cleanly under EEM_Project package
+- README + this architecture document updated to match actual layout (src/EEM_Project kept per preference) and user decisions
+- User confirmed via session: **follow this plan *strictly*** (phase order, formula protocol §6, cell-by-cell validation §8 mandatory). GUI: **Streamlit + PyInstaller** (no deviation). Source xlsm to be copied to workspace root.
 
-**Next Immediate Task for Agent**:  
-Implement the Excel import script (`scripts/import_from_xlsm.py`) that can read `Block_Oil Data`, `Block_Gas Data`, `Block_TC`, `Block_TC_Gas`, and `Equity Dash` and convert them into lists of `ProductionProfile` and `CostProfile` objects.
+**Next Immediate Task for Agent** (after user copies Econ_Model_Draft_2.xlsm):  
+- Detect the xlsm and list/analyze all 36 sheets.
+- Create `scripts/import_data.py` (and `docs/module_specs/` structure).
+- Start formula extraction + implementation for highest priority modules (Ec_IO assumptions, Fiscal Terms_PIA, Block_* Data, Royalties/FLGT) per the groups in §4 and roadmap in §7.
+- Only advance after explicit validation match statement per §8.
 
 ---
 

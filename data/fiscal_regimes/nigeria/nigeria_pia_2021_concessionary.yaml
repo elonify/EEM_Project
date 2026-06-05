@@ -1,6 +1,7 @@
 id: nigeria_pia_2021_concessionary_v1
-name: Nigeria PIA 2021 - Concessionary Regime (Shallow Water Example)
+name: Nigeria PIA 2021 - Concessionary Regime (Shallow Water Example, Sole Risk)
 regime_type: concessionary
+ownership_type: sole_risk
 country: Nigeria
 effective_from: "2021-08-16"
 version: "1.0"
@@ -8,6 +9,10 @@ description: |
   Initial configuration based on PIA 2021 for converted OMLs / shallow water.
   Royalties, taxes, levies, and allowance rules are illustrative and must be
   validated against your detailed Excel model and official PIA regulations.
+
+  This is a CONCESSIONARY SOLE RISK regime.
+  To create a JV version: copy this file, change ownership_type: jv, and adjust rates if needed.
+  For PSC regimes: set regime_type: psc, ownership_type: null, and populate cost_recovery_limit + profit_split_rules.
 
 royalty_oil_rates:
   onshore: {base: 0.05, sliding: true, tranches: []}
