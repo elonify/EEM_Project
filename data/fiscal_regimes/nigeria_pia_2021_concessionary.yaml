@@ -1,0 +1,48 @@
+id: nigeria_pia_2021_concessionary_v1
+name: Nigeria PIA 2021 - Concessionary Regime (Shallow Water Example)
+regime_type: concessionary
+country: Nigeria
+effective_from: "2021-08-16"
+version: "1.0"
+description: |
+  Initial configuration based on PIA 2021 for converted OMLs / shallow water.
+  Royalties, taxes, levies, and allowance rules are illustrative and must be
+  validated against your detailed Excel model and official PIA regulations.
+
+royalty_oil_rates:
+  onshore: {base: 0.05, sliding: true, tranches: []}
+  shallow_water: {base: 0.075, sliding: true}
+  deep_water: {base: 0.10, sliding: true}
+
+royalty_gas_rates:
+  domestic: {base: 0.05}
+  export: {base: 0.075}
+
+price_royalty_rules:
+  enabled: true
+  oil_price_threshold_usd: 70
+  additional_rate: 0.02
+
+tax_rates:
+  ht: 0.15          # Hydrocarbon Tax (example)
+  cit: 0.30         # Companies Income Tax
+  edu_dev_levy: 0.03
+
+levies:
+  nddc: 0.03
+  hcdt: 0.03        # Host Community Development Trust
+
+capital_allowance_rules:
+  oil:
+    initial: 0.20
+    annual: 0.20
+    method: "straight_line_or_pool"
+  gas:
+    initial: 0.25
+    annual: 0.20
+
+cost_recovery_limit: null   # Only relevant for PSC
+
+profit_split_rules:
+  type: "r_factor"   # or "tranches"
+  r_factor_thresholds: []
